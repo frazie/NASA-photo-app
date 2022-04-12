@@ -1,0 +1,56 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+  width: 70%;
+}
+
+body{
+  background-image: url(../img/6786007.jpg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: fixed;
+  
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+.nasa{
+  display: flex;
+  justify-content: center; 
+ 
+  color: white;
+  
+}
+
+.nasa-details{
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  
+}
+.nasa-details p {
+  font-size: 20px;
+}
+.nasa-details input {
+  padding: 5px 0 ;
+  border: none;
+  
+}
+.nasa-details button{
+  padding: 5px 0;
+  border: none;
+  opacity: 0.9; 
+}
